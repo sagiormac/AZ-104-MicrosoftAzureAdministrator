@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-10-01T15:54:06.138Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="hGjz4h2cQRKy1sFJsRW5" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-03T11:06:33.673Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="JjZ53AdQJcRsz22KRCMP" version="21.7.4" type="github">
   <diagram name="Page-1" id="bsTo58zp84ljqE6qS9Kt">
-    <mxGraphModel dx="3160" dy="1284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2736" dy="1051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="RAjeQEvejyIeY-pR_Ogj-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
-          <mxGeometry x="11" y="103.00000000000011" width="386.5" height="136.37" as="geometry" />
+          <mxGeometry x="10" y="100.00000000000011" width="386.5" height="136.37" as="geometry" />
         </mxCell>
         <mxCell id="RAjeQEvejyIeY-pR_Ogj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RAjeQEvejyIeY-pR_Ogj-6" target="RAjeQEvejyIeY-pR_Ogj-33">
           <mxGeometry relative="1" as="geometry" />
@@ -93,17 +93,18 @@
         <mxCell id="RAjeQEvejyIeY-pR_Ogj-45" value="Linux&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;New unified in house&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;hosted on linux" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/VM_Scale_Sets.svg;" vertex="1" parent="1">
           <mxGeometry x="357" y="330" width="68" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="RAjeQEvejyIeY-pR_Ogj-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RAjeQEvejyIeY-pR_Ogj-49" target="RAjeQEvejyIeY-pR_Ogj-51">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="RAjeQEvejyIeY-pR_Ogj-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RAjeQEvejyIeY-pR_Ogj-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="103.81818181818153" y="396" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="RAjeQEvejyIeY-pR_Ogj-49" value="Application Gateway" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Application_Gateways.svg;" vertex="1" parent="1">
           <mxGeometry x="70.88" y="470" width="64" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="RAjeQEvejyIeY-pR_Ogj-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RAjeQEvejyIeY-pR_Ogj-51" target="RAjeQEvejyIeY-pR_Ogj-45">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RAjeQEvejyIeY-pR_Ogj-51" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;App Service&lt;/span&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/App_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="70.88" y="330" width="66" height="66" as="geometry" />
+        <mxCell id="RAjeQEvejyIeY-pR_Ogj-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="RAjeQEvejyIeY-pR_Ogj-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="136.87999999999965" y="363" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="RAjeQEvejyIeY-pR_Ogj-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RAjeQEvejyIeY-pR_Ogj-30" target="RAjeQEvejyIeY-pR_Ogj-55">
           <mxGeometry relative="1" as="geometry">
@@ -122,6 +123,9 @@
         </mxCell>
         <mxCell id="RAjeQEvejyIeY-pR_Ogj-64" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="145.99999999999997" y="-102" width="140" height="827.18" as="geometry" />
+        </mxCell>
+        <mxCell id="RAjeQEvejyIeY-pR_Ogj-127" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;App Service - solution for the&amp;nbsp;&lt;br&gt;Project Management&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Software in the cloud&lt;/span&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="70" y="330" width="64" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
